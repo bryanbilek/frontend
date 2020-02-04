@@ -1,0 +1,43 @@
+//Landing Page Code Here
+body {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(../images/inspired-horizons-digital-marketing-2J4n47XPS1Q-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-size: 12rem;
+        color: white;
+        text-align: center;
+        margin: 7%;
+    }//closes h1
+
+    .get-started-button {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    
+        button {
+            width: 70%;
+            background-color: orange;
+            color: white;
+            font-size: 3rem;
+            padding: 2%;
+            border: 5px solid white;
+            border-radius: 20px;
+            margin-bottom: 3%; 
+               
+        }//closes button
+    }//closes .get-started-button
+}//closes .container
+
+.container button:hover {
+    background-color: white;
+    color: orange;
+}
