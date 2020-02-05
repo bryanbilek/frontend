@@ -140,6 +140,7 @@ body {
 .container h1 {
   font-size: 12rem;
   color: white;
+  text-shadow: 7px 7px black;
   text-align: center;
   margin: 7%;
 }
@@ -153,6 +154,7 @@ body {
   background-color: orange;
   color: white;
   font-size: 3rem;
+  text-shadow: 2px 2px black;
   padding: 2%;
   border: 5px solid white;
   border-radius: 20px;
@@ -161,4 +163,86 @@ body {
 .container button:hover {
   background-color: white;
   color: orange;
+}
+body {
+  max-width: 100%;
+  background-image: url(../images/eric-mills-6ysUHAgX8tY-unsplash.jpg);
+  background-size: cover;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: orange;
+}
+.header nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header nav button {
+  width: 30%;
+  border-radius: 10px;
+  color: orange;
+  background-color: white;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px black;
+}
+.header nav button:hover {
+  color: white;
+  background-color: black;
+}
+.header h1 {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 2px 2px black;
+  padding: 1%;
+}
+.team-member-boxes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-member-boxes .team-member {
+  width: 50%;
+  padding: 2%;
+  background-color: black;
+  border: 5px solid orange;
+  margin: 2% 0;
+  text-align: center;
+}
+.team-member-boxes .team-member img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
+.team-member-boxes .team-member h2 {
+  color: white;
+  font-size: 3rem;
+}
+.team-member-boxes .team-member h3 {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.team-member-boxes .team-member p {
+  color: white;
+  font-size: 1rem;
+  margin-top: 1%;
+}
+footer {
+  width: 100%;
+  background-color: orange;
+}
+footer p {
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1% 0;
 }
